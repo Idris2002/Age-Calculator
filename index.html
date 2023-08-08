@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Frontend Mentor | Age calculator app</title>
+  </head>
+  <body>
+    <section class="hero">
+      <form class="workPanel flex">
+        <div class="inputGrp grid">
+          <div class="inputGrp--day flex">
+            <label>DAY</label>
+            <input id="day" type="number" placeholder="DD" />
+            <small></small>
+          </div>
+          <div class="inputGrp--month flex">
+            <label>MONTH</label>
+            <input id="month" type="number" placeholder="MM" />
+            <small></small>
+          </div>
+          <div class="inputGrp--year flex">
+            <label>YEAR</label>
+            <input id="year" type="number" placeholder="YYYY" />
+            <small></small>
+          </div>
+        </div>
+        <button class="arrowDown">
+          <img class="" src="assets\images\icon-arrow.svg" alt="" />
+        </button>
+      </form>
+      <div class="displayGrp">
+        <div class="displayGrp--year flex">
+          <p class="yearDisplay">--</p>
+          <span>years</span>
+        </div>
+        <div class="displayGrp--month flex">
+          <p class="monthDisplay">--</p>
+          <span>months</span>
+        </div>
+        <div class="displayGrp--day flex">
+          <p class="dayDisplay">--</p>
+          <span>days</span>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
